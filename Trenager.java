@@ -73,7 +73,7 @@ public class Trenager {
         return "Name of the trenager : "+this.getTrenagerName()+"\n Amount : "+this.getAmount()+"\n Price : "+this.getPrice()+"\n Type : "+this.getType()+"\n Size : "+this.getSize();
     }
 
-    static void printtotalPrice(){
+    static void printTotalPrice(){
         System.out.println("Total price of all trenagers : " + totalPrice);
     }
 
