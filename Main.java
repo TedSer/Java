@@ -7,18 +7,15 @@ public class Main {
         Trenager Atlet = new Trenager();
         Trenager King = new Trenager("King",400,15, "power" );
         Trenager Inter = new Trenager("Inter",550,8,"speed","medium");
-
         Atlet.setTrenagerName("Atlet");
         Atlet.setPrice(470);
         Atlet.setAmount(5);
         Atlet.setType("flexibility");
         Atlet.setSize("small");
-
         System.out.println(Atlet);
         System.out.println(King);
         System.out.println(Inter);
-
-        Trenager.printtotalPrice();
+        Trenager.printTotalPrice();
         Atlet.printSum();
         King.printSum();
         Inter.printSum();
@@ -28,7 +25,7 @@ public class Main {
         System.out.println(Atlet);
         System.out.println(King);
         System.out.println(Inter);
+        
     }
-
 
 }
